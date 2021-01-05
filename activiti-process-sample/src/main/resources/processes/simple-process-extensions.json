@@ -1,0 +1,26 @@
+{
+  "id": "extensions_1",
+  "type": "PROCESS",
+  "name": "process_name",
+  "extensions": {
+    "simpleProcess": {
+      "constants": {},
+      "mappings": {
+        "userTask1": {
+          "mappingType": "MAP_ALL"
+        },
+        "serviceTask1": {
+          "mappingType": "MAP_ALL"
+        }
+      },
+      "properties": {},
+      "assignments": {
+        "userTask1": {
+          "type": "static",
+          "assignment": "assignee",
+          "id": "userTask1"
+        }
+      }
+    }
+  }
+}
